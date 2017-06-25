@@ -1,0 +1,132 @@
+.banner {
+    background-image: url("backgr.png");
+    background-repeat: repeat-x;
+}
+.menubar {
+    background-color: rgb(25, 116, 183);
+    height: 100%;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+.button, .button:link, .button:visited {
+    color: rgb(255, 160, 0);
+    margin: 4px 15px;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: verdana;
+    font-size: 20px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: gray;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    box-shadow: 1px 1px rgb(10, 10, 10);
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+.button:hover, .button:active {
+    color: rgb(245, 245, 245);
+    background-color: rgb(255, 160, 0);
+}
+.button:active {
+    border-style: inset;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(20, 111, 178);
+    min-width: 160px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.8);
+    padding: 0px 16px;
+    z-index: 1;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 2px;
+    color: rgb(255, 160, 0);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.button2, .button2:link, .button2:visited {
+    color: rgb(255, 160, 0);
+    margin: 0px 15px;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: verdana;
+    font-size: 20px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: gray;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    box-shadow: 1px 1px rgb(10, 10, 10);
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+    min-width: 160px;
+}
+
+
+.button2:hover, .button2:active {
+    color: rgb(245, 245, 245);
+    background-color: rgb(255, 160, 0);
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.gamestext {
+    font-family: verdana;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 160, 0);
+    font-weight: bold;
+    padding: 15px 15px;
+    margin: 0px 50px;
+}
+
+.embeds{
+    display: block;
+    margin: auto;
+}
