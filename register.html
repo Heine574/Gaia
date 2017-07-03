@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/png" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script src="game.js"></script>
+<title>Gaia RPG</title>
+</head>
+<body>
+
+<div w3-include-html="menu.html"></div> 
+
+<p id="content"></p>
+<form action="register.php" method="post" enctype="text/plain"
+    onsubmit="AJAXSubmit(this); return false;">
+  <fieldset>
+    <legend>Registration Form</legend>
+    <p>
+      Username: <input type="text" name="registeruser" />
+    </p>
+    <p>
+      Password: <input type="text" name="password" />
+    </p>
+    <p>
+      <input class="button" type="submit" value="Submit" />
+    </p>
+
+  </fieldset>
+</form>
+
+</body>
+</html>

@@ -15,7 +15,7 @@ p {
     font-size: 20px;
 }
 .button, .button:link, .button:visited {
-    color: rgb(255, 160, 0);
+    color: rgb(245, 205, 0);
     margin: 4px 15px;
     padding: 4px 15px;
     text-align: center;
@@ -34,7 +34,7 @@ p {
 }
 .button:hover, .button:active {
     color: rgb(245, 245, 245);
-    background-color: rgb(255, 160, 0);
+    background-color: rgb(245, 205, 0);
 }
 .button:active {
     border-style: inset;
