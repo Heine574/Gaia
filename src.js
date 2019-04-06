@@ -1,1 +1,4 @@
-alert(1);
+function ac() {
+  alert(1);
+}
+x1 = 42
